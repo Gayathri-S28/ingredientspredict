@@ -1,0 +1,9 @@
+numpy==1.22.3
+Pillow==9.2.0
+plotly==5.10.0
+scipy==1.9.1
+streamlit==1.13.0
+tensorflow==2.10.0
+tensorflow_gpu==2.10.0
+torch==1.12.1
+utils==1.0.1
