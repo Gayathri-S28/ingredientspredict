@@ -68,8 +68,8 @@ def plot_pred_final(test_imgs):
 #------streamlit starts here----------------
 
 model_saved = tensorflow.keras.models.load_model("inception_food_rec_50epochs.h5")
-target_dict = {0:"Bread",1:"Dairy_product",2:"chicken",3:"cheese",4:"Fried_food",
-                 5:"Meat",6:"Noodles/Pasta",7:"Rice",8:"veggies",9:"Soup",10:"veggies/Fruit"}
+target_dict = {0:"Bread 265kcal",1:"Dairy_product 46kcal ",2:"chicken 239kcal",3:"cheese 402kcal ",4:"Fried_food 300kcal",
+                 5:"Meat 143kcal",6:"Noodles/Pasta 131kcal",7:"Rice 130kcal",8:"veggies 65kcal",9:"Soup 32kcal",10:"veggies/Fruit 52kcal"}
 ss.set_page_config(page_title = "Food Recognition using Inception V3", layout = "wide")
 ss.title("Food Recognition")
 
